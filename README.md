@@ -9,7 +9,7 @@ To add a plugin from a git repo (assuming you're currently in the root directory
     git add .
     git commit -m "Install plugin-name bundle as a submodule."
 
-The above came from http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/
+Please note, the vim stuff requires Vim 7.4 ot higher (included in Ubuntu Natty and up).
 
 To install the dotfiles:
 
