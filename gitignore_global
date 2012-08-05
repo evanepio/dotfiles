@@ -1,0 +1,27 @@
+ # OS X
+_Store
+.DS_Store
+.DS_Store?
+.Spotlight-V100
+.Trashes
+._*
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+# Mercurial
+/.hg/*
+*/.hg/*
+.hgignore
+
+# vim
+ 
+.*.sw[a-z]
+*.swp
+*.un~
+Session.vim
+.netrwhist
