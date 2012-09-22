@@ -15,6 +15,10 @@ set cursorline
 nnoremap <Leader>n :NERDTreeToggle<cr>
 
 set nocompatible
+set laststatus=2
+
+let t_Co=256 
+let g:Powerline_symbols = 'fancy' 
 
 set modelines=0
 
@@ -30,14 +34,11 @@ set showcmd
 set wildmode=longest,list,full
 set wildmenu
 
-
-
 set ruler
 
 " I don't want vim making weird noises.
 set visualbell
 
-set laststatus=2
 
 set ttyfast
 
