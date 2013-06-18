@@ -2,7 +2,11 @@ alias mem='ps -u evanporter -o pid,rss,command'
 alias dotman='cd ~/projects/django/dotman-comics/'
 alias dotman-remote='ssh dotman@dotman.webfactional.com'
 
-echo 'source "`brew --prefix grc`/etc/grc.bashrc"'
+# Use brew's python
+export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python
+
+# Activate more terminal colors. Yay!
+source `brew --prefix`/etc/grc.bashrc
 
 # Tell ls to be colourful
 export CLICOLOR=1
