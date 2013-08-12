@@ -59,6 +59,7 @@ set expandtab
 set shiftwidth=4
 set softtabstop=4
 
+set backspace=indent,eol,start
 
 if has("gui_running") 
     " any code here affects gvim but not console vim 
