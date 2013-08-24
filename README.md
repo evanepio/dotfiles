@@ -27,3 +27,7 @@ The above commands (and symlink script) came from:
 
 * http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/ (plugin and git submodule stuff)
 * http://blog.smalleycreative.com/tutorials/using-git-and-github-to-manage-your-dotfiles/ (dot files and script)
+
+Also, you need to install powerline using the following:
+
+    pip install --user git+git://github.com/Lokaltog/powerline
