@@ -41,7 +41,6 @@ set ruler
 " I don't want vim making weird noises.
 set visualbell
 
-
 set ttyfast
 
 " Searching stuff
