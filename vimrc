@@ -85,6 +85,7 @@ au Syntax * RainbowParenthesesLoadSquare
 au Syntax * RainbowParenthesesLoadBraces
 
 let g:slime_target = "tmux"
+let g:slime_default_config = {"socket_name": "default", "target_pane": ":0.1"}
 
 if has("gui_running") 
     " any code here affects gvim but not console vim 
