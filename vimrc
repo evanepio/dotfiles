@@ -84,6 +84,8 @@ au Syntax * RainbowParenthesesLoadRound
 au Syntax * RainbowParenthesesLoadSquare
 au Syntax * RainbowParenthesesLoadBraces
 
+let g:slime_target = "tmux"
+
 if has("gui_running") 
     " any code here affects gvim but not console vim 
     set guifont=Monaco:h14
