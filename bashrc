@@ -23,4 +23,6 @@ source /usr/local/bin/virtualenvwrapper.sh
 # Use vim installed by brew
 export EDITOR=/usr/local/bin/vim
 
+export GROOVY_HOME=/usr/local/opt/groovy/libexec
+
 PATH=/usr/local/bin:$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
