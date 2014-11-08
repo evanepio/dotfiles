@@ -1,5 +1,4 @@
 alias mem='ps -u evanporter -o pid,rss,command'
-alias dotman='cd ~/projects/django/dotman-comics/'
 alias dotman-remote='ssh dotman@dotman.webfactional.com'
 
 # Use brew's python
@@ -19,6 +18,9 @@ export GREP_OPTIONS='--color=auto'
 export WORKON_HOME=$HOME/.virtualenvs
 export PROJECT_HOME=$HOME/projects
 source /usr/local/bin/virtualenvwrapper.sh
+
+# Restrict pip to only virtualenv
+export PIP_REQUIRE_VIRTUALENV=true
 
 # Use vim installed by brew
 export EDITOR=/usr/local/bin/vim
