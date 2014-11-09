@@ -3,11 +3,11 @@ Dotfiles
 
 This is just a place to hold my dotfiles and a script to create symlinks.
 
-To add a plugin from a git repo (assuming you're currently in the root directory of this repo):
+To install vundle (needed for my vim config), run:
 
-    git submodule add repopath vim/bundle/plugin-name
-    git add .
-    git commit -m "Install plugin-name bundle as a submodule."
+    git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
+
+To install plugins, use `:PluginInstall` command in vim. To add new ones, edit vimrc and rerun `:PluginInstall` command. See Vundle documentation for more.
 
 Please note, the vim stuff requires Vim 7.4 ot higher (included in Ubuntu Natty and up).
 
