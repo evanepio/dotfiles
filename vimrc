@@ -1,4 +1,16 @@
-call pathogen#infect()
+set nocompatible
+filetype off
+
+" set runtime path to include Vundle and initialize
+set rtp+=~/.vim/bundle/vundle/
+call vundle#begin()
+
+Plugin 'gmarik/Vundle.vim'
+Plugin 'tpope/vim-fugitive'
+Plugin 'kien/rainbow_parentheses.vim'
+
+call vundle#end()
+
 syntax on
 filetype plugin indent on
 
@@ -14,7 +26,6 @@ set cursorline
 " Map <Leader>-n to toggle NERDTree
 nnoremap <Leader>n :NERDTreeToggle<cr>
 
-set nocompatible
 set laststatus=2
 
 " Powerline setup. Must have python support in vim
