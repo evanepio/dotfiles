@@ -8,6 +8,7 @@ call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
 Plugin 'tpope/vim-fugitive'
 Plugin 'kien/rainbow_parentheses.vim'
+Plugin 'christoomey/vim-tmux-navigator'
 
 call vundle#end()
 
