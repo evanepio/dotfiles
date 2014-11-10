@@ -31,3 +31,7 @@ The above commands (and symlink script) came from:
 Also, you need to install powerline using the following:
 
     pip install --user git+git://github.com/Lokaltog/powerline
+
+To get copy/paste working properly in tmux, use (assuming Mac Brew):
+
+    brew install reattach-to-user-namespace
