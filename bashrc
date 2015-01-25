@@ -1,5 +1,6 @@
 alias mem='ps -u evanporter -o pid,rss,command'
 alias dotman-remote='ssh dotman@dotman.webfactional.com'
+alias lien='lein '
 
 # Use brew's python
 export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python
