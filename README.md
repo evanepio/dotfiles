@@ -17,11 +17,6 @@ To install the dotfiles:
     git clone https://github.com/evanepio/dotfiles.git
     cd dotfiles
     ./makesymlinks.sh
-    git submodule init
-    git submodule update
-
-To update a plugin, `cd` into the directory of the plugin and:
-    git pull origin master
 
 The above commands (and symlink script) came from: 
 
