@@ -11,14 +11,12 @@ source `brew --prefix`/etc/grc.bashrc
 # Tell ls to be colourful
 export CLICOLOR=1
 export LSCOLORS=Exfxcxdxbxegedabagacad
+alias ls='ls -GFh'
+
+export PS1="\[\033[36m\]\u\[\033[m\]@\[\033[32m\]\h:\[\033[33;1m\]\w\[\033[m\]\$ "
 
 # Tell grep to highlight matches
 export GREP_OPTIONS='--color=auto'
-
-# for virtualenvwrapper
-export WORKON_HOME=$HOME/.virtualenvs
-export PROJECT_HOME=$HOME/projects
-source /usr/local/bin/virtualenvwrapper.sh
 
 # Restrict pip to only virtualenv
 export PIP_REQUIRE_VIRTUALENV=true
