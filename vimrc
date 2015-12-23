@@ -5,10 +5,14 @@ filetype off
 set rtp+=~/.vim/bundle/vundle/
 call vundle#begin()
 
-Plugin 'gmarik/Vundle.vim'
+Plugin 'VundleVim/Vundle.vim'
 Plugin 'tpope/vim-fugitive'
 Plugin 'kien/rainbow_parentheses.vim'
 Plugin 'christoomey/vim-tmux-navigator'
+Plugin 'tpope/vim-classpath'
+Plugin 'tpope/vim-fireplace'
+Plugin 'guns/vim-sexp'
+Plugin 'tpope/vim-sexp-mappings-for-regular-people'
 
 call vundle#end()
 
