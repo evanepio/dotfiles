@@ -2,7 +2,7 @@
 	name = Evan Porter
 	email = evan.porter@dotman.ca
 [core]
-	excludesfile = /Users/evan/.gitignore_global
+	excludesfile = ~/.gitignore_global
 [credential]
 	helper = osxkeychain
 [push]
