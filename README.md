@@ -9,8 +9,6 @@ To install vundle (needed for my vim config), run:
 
 To install plugins, use `:PluginInstall` command in vim. To add new ones, edit vimrc and rerun `:PluginInstall` command. See Vundle documentation for more.
 
-To make sure parinfer works, run `cd ~/.vim/bundle/vim-parinfer/ && npm install`.
-
 Please note, the vim stuff requires Vim 7.4 ot higher (included in Ubuntu Natty and up).
 
 To install the dotfiles:

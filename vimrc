@@ -11,7 +11,8 @@ Plugin 'kien/rainbow_parentheses.vim'
 Plugin 'christoomey/vim-tmux-navigator'
 Plugin 'tpope/vim-classpath'
 Plugin 'tpope/vim-fireplace'
-Plugin 'bhurlow/vim-parinfer'
+Plugin 'guns/vim-sexp'
+Plugin 'tpope/vim-sexp-mappings-for-regular-people'
 
 call vundle#end()
 
