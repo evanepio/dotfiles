@@ -25,3 +25,5 @@ _Store
 *.un~
 Session.vim
 .netrwhist
+
+.idea/
