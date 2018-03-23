@@ -1,7 +1,3 @@
-alias mem='ps -u evanporter -o pid,rss,command'
-alias dotman-remote='ssh dotman@dotman.webfactional.com'
-alias lien='lein '
-
 # Use brew's python
 export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python
 
@@ -26,4 +22,6 @@ export EDITOR=/usr/local/bin/vim
 
 export GROOVY_HOME=/usr/local/opt/groovy/libexec
 
-PATH=/usr/local/bin:$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+alias j9="export JAVA_HOME=`/usr/libexec/java_home -v 9`; java -version"
+alias j8="export JAVA_HOME=`/usr/libexec/java_home -v 1.8`; java -version"
+
