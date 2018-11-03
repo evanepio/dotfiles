@@ -25,3 +25,5 @@ export GROOVY_HOME=/usr/local/opt/groovy/libexec
 alias j9="export JAVA_HOME=`/usr/libexec/java_home -v 9`; java -version"
 alias j8="export JAVA_HOME=`/usr/libexec/java_home -v 1.8`; java -version"
 
+
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash
